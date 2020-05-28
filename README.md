@@ -1,5 +1,4 @@
 # Vulnado - Intentionally Vulnerable Java Application - CxFlow Edition!
-## Checkmarx - Your AST Leader!
 ## Software = Security
 
 This application and exercises will take you through some of the OWASP top 10 Vulnerabilities and how to prevent them.
