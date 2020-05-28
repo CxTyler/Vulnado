@@ -19,6 +19,7 @@ public class Comment {
   }
 
   public static Comment create(String username, String body){
+    long number = 0;
     long time = new Date().getTime();
     Timestamp timestamp = new Timestamp(time);
     Comment comment = new Comment(UUID.randomUUID().toString(), username, body, timestamp);
