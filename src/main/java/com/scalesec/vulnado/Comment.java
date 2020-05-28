@@ -27,7 +27,7 @@ public class Comment {
       if (comment.commit()) {
         return comment;
       } else {
-        throw new BadRequest("Unable to save comment. Oops.");
+        throw new BadRequest("Unable to save comment. Please try again.");
       }
     } catch (Exception e) {
       throw new ServerError(e.getMessage());
